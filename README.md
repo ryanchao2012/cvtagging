@@ -2,14 +2,14 @@
 A realtime tagging tool for videos based on `OpenCV`
 
 
-# Config File:
+## Config File
 `config.ini`:
 * `InputVideo`: video source
 * `LabelFile`: classes to label (one class per line)
 * `OutputDir`: where(directory) to store the info of tags(filename will be <video-filename>.tag), the output format is: `label-name` `<tab>` `frame-number` `<tab>` `x` `<tab>` `y` `<tab>` `width` `<tab>` `height` per line.
 
 
-# Key Mapping:
+## Key Mapping
 * `p`: taggle tagging/playing mode.
 * `,`, `.`: switch between tags which are created.
 * `x`: delete tag which is selected.
@@ -20,10 +20,10 @@ A realtime tagging tool for videos based on `OpenCV`
 * `q`, `ESC`: quit
 
 
-# Dependencies:
+## Dependencies
 `OpenCV`, `boost` libraries
 
 
-# TODO:
+## TODO
 * Add OpenGL support
 
