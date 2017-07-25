@@ -10,7 +10,7 @@ A realtime tagging tool for videos based on `OpenCV`
 
 
 ## Key Mapping
-* `p`: taggle tagging/playing mode.
+* `p`: taggle tagging/playing mode. In tagging mode, use mouse(left-button) to define the bounding box of the tag.
 * `,`, `.`: switch between tags which are created.
 * `x`: delete tag which is selected.
 * `[`, `]`: switch between labels(show at top-right corner).
