@@ -1,7 +1,7 @@
 # cvTagging
 A realtime tagging tool for videos based on `OpenCV`
 
-![demo](https://media.giphy.com/media/3o8dFEytemwMWK9Ubu/giphy.gif)
+![demo](https://media.giphy.com/media/3o8dFmMGpvcXVXIMX6/giphy.gif)
 
 
 ## Config File
