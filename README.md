@@ -1,12 +1,27 @@
 # cvTagging
 A realtime tagging tool for videos based on `OpenCV`
 
+![demo](https://media.giphy.com/media/3o8dFEytemwMWK9Ubu/giphy.gif)
+
 
 ## Config File
 `config.ini`:
 * `InputVideo`: video source
 * `LabelFile`: classes to label (one class per line)
 * `OutputDir`: where(directory) to store the info of tags(filename will be <video-filename>.tag), the output format is: `label-name` `<tab>` `frame-number` `<tab>` `x` `<tab>` `y` `<tab>` `width` `<tab>` `height` per line.
+
+## Build
+In prompt: `$ mkdir bin && cd src && make`
+
+
+## Usage
+1. In prompt: `$ ./e2tagging`
+2. Start video playing by pressing `p`.
+3. Press `p` to enter `tagging mode`.
+3. Press `[`, `]` to switch label classes.
+4. Use mouse(lift-button) to create bounding box of the tag.
+5. Press `p` to continue video playing.
+6. The tagging infos are automatically saved.
 
 
 ## Key Mapping
